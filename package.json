@@ -1,5 +1,5 @@
 {
-  "name": "paintbot",
+  "name": "nightdroid",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -19,5 +19,17 @@
     "express": "^4.17.1",
     "node-fetch": "^3.1.0",
     "nodemon": "^2.0.15"
-  }
+  },
+  "devDependencies": {
+    "node": "^16.13.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Nights-Alliance/Nightdr0id.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/The-Nights-Alliance/Nightdr0id/issues"
+  },
+  "homepage": "https://github.com/The-Nights-Alliance/Nightdr0id#readme"
 }
