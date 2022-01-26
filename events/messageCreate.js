@@ -10,7 +10,7 @@ module.exports = (client, message) => {
             level: 1
         });
         client.db.points.inc(key, "points", 500);
-        const curLevel = Math.floor(0.1 * Math.sqrt(client.points.get(key, "points")));
+        const curLevel = Math.floor(0.1 * Math.sqrt(client.db.points.get(key, "points")));
         const channel = message.guild.channels.cache.find(c => c.name === "levelups")
         if (client.db.points.get(key, "level") < curLevel) {
             channel.send(`${message.author.username} leveled up to level **${curLevel}**!`);
